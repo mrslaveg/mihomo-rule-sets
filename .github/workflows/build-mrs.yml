@@ -13,43 +13,50 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download Mihomo
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
-          URL=$(curl -fsSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
-            | jq -r '.assets[] | select(.name | test("mihomo-linux-amd64-v1\\.gz$")) | .browser_download_url' \
-            | head -n1)
+          URL=$(curl -fsSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest |
+            jq -r '
+              .assets[]
+              | select(.name | test("^mihomo-linux-amd64-v1\\.[0-9]+\\.[0-9]+\\.gz$"))
+              | .browser_download_url
+            ' | head -n1)
 
-          echo "Downloading:"
-          echo "$URL"
+          if [ -z "$URL" ]; then
+            echo "ERROR: Mihomo linux-amd64-v1 release asset not found"
+            exit 1
+          fi
 
+          echo "Downloading: $URL"
           curl -fL "$URL" -o mihomo.gz
-          gunzip mihomo.gz
+          gunzip -f mihomo.gz
           chmod +x mihomo
 
           ./mihomo -v
 
       - name: Build MRS
+        shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           ./mihomo convert-ruleset domain text direct.txt direct.mrs
           ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
 
-          ls -lh *.mrs
+          ls -lh direct.mrs proxy.mrs
 
       - name: Commit MRS
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
