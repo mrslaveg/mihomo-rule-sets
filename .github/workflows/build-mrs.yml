@@ -1,0 +1,65 @@
+name: Build MRS
+
+on:
+  push:
+    paths:
+      - 'direct.txt'
+      - 'proxy.txt'
+      - '.github/workflows/build-mrs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download Mihomo
+        shell: bash
+        run: |
+          set -e
+
+          URL=$(curl -fsSL https://api.github.com/repos/MetaCubeX/mihomo/releases/latest \
+            | jq -r '.assets[] | select(.name | test("mihomo-linux-amd64-v1\\.gz$")) | .browser_download_url' \
+            | head -n1)
+
+          echo "Downloading:"
+          echo "$URL"
+
+          curl -fL "$URL" -o mihomo.gz
+          gunzip mihomo.gz
+          chmod +x mihomo
+
+          ./mihomo -v
+
+      - name: Build MRS
+        run: |
+          set -e
+
+          ./mihomo convert-ruleset domain text direct.txt direct.mrs
+          ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
+
+          ls -lh *.mrs
+
+      - name: Commit MRS
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add direct.mrs proxy.mrs
+
+          if git diff --cached --quiet; then
+            echo "No MRS changes"
+            exit 0
+          fi
+
+          git commit -m "Update MRS"
+          git push
