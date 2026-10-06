@@ -51,8 +51,9 @@ jobs:
 
           ./mihomo convert-ruleset domain text direct.txt direct.mrs
           ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
+          ./mihomo convert-ruleset domain text games.txt games.mrs
 
-          ls -lh direct.mrs proxy.mrs
+          ls -lh direct.mrs proxy.mrs games.mrs
 
       - name: Commit MRS
         shell: bash
@@ -62,7 +63,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add direct.mrs proxy.mrs
+          git add direct.mrs proxy.mrs games.mrs
 
           if git diff --cached --quiet; then
             echo "No MRS changes"
