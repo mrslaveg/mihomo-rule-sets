@@ -5,6 +5,7 @@ on:
     paths:
       - 'direct.txt'
       - 'proxy.txt'
+      - 'games.txt'
       - '.github/workflows/build-mrs.yml'
   workflow_dispatch:
 
