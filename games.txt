@@ -1,1 +1,41 @@
+# Steam
++.steampowered.com
++.steamcommunity.com
++.steamstatic.com
++.steamcdn-a.akamaihd.net
++.steamserver.net
++.steam-api.com
++.steamcontent.com
++.steamgames.com
++.steamusercontent.com
++.valvesoftware.com
 
+# Epic
++.epicgames.com
++.epicgames.dev
++.unrealengine.com
++.easyanticheat.net
+
+# Riot / Valorant / LoL
++.riotgames.com
++.playvalorant.com
++.leagueoflegends.com
++.pvp.net
+
+# Battle.net / Blizzard
++.battle.net
++.blizzard.com
++.blz-contentstack.com
+
+# EA / Origin
++.ea.com
++.origin.com
++.eaassets.com
+
+# Ubisoft
++.ubisoft.com
++.ubi.com
+
+# Faceit (если нужно)
++.faceit.com
++.faceit-cdn.net
