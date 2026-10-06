@@ -1,41 +1,142 @@
-# Steam
+# ===== Steam / Valve =====
 +.steampowered.com
 +.steamcommunity.com
 +.steamstatic.com
-+.steamcdn-a.akamaihd.net
++.steamcontent.com
 +.steamserver.net
 +.steam-api.com
-+.steamcontent.com
++.steam-chat.com
 +.steamgames.com
 +.steamusercontent.com
++.steamdeck.com
++.steam.tv
++.s.team
 +.valvesoftware.com
++.valve.net
++.dota2.com
++.underlords.com
++.playartifact.com
+steamcdn-a.akamaihd.net
+steamcommunity-a.akamaihd.net
+steampipe.akamaized.net
+steampipe-partner.akamaized.net
+steamstore-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+steamuserimages-a.akamaihd.net
+steambroadcast.akamaized.net
+steammobile.akamaized.net
+steamvideo-a.akamaihd.net
+steam.cdn.webra.ru
+steam.ru.qtlglb.com
 
-# Epic
+# ===== Epic Games =====
 +.epicgames.com
 +.epicgames.dev
++.epicgamescdn.com
 +.unrealengine.com
++.fortnite.com
 +.easyanticheat.net
++.easy.ac
++.eac-cdn.com
++.fab.com
+egdownload.fastly-edge.com
 
-# Riot / Valorant / LoL
+# ===== Riot (Valorant / LoL) =====
 +.riotgames.com
++.riotcdn.net
 +.playvalorant.com
 +.leagueoflegends.com
 +.pvp.net
++.pvp.tv
++.rgpub.io
++.rstatic.net
++.riotforgegames.com
 
-# Battle.net / Blizzard
+# ===== Battle.net / Blizzard =====
 +.battle.net
 +.blizzard.com
++.blizzardgearstore.com
 +.blz-contentstack.com
++.battlelog.com
 
-# EA / Origin
+# ===== EA / Origin =====
 +.ea.com
 +.origin.com
 +.eaassets.com
++.eaorigin.com
++.easports.com
++.respawn.com
 
-# Ubisoft
+# ===== Ubisoft =====
 +.ubisoft.com
 +.ubi.com
++.uplay.com
++.ubisoftconnect.com
 
-# Faceit (если нужно)
+# ===== Faceit =====
 +.faceit.com
 +.faceit-cdn.net
+
+# ===== Wargaming (World of Tanks / Warships / Warplanes) =====
++.wargaming.net
++.worldoftanks.eu
++.worldoftanks.ru
++.worldofwarships.eu
++.worldofwarships.ru
++.wotblitz.ru
++.lesta.ru
++.lesta.games
+
+# ===== Gaijin (War Thunder / Enlisted) =====
++.gaijin.net
++.warthunder.com
++.enlisted.net
++.crossout.net
+
+# ===== Escape from Tarkov =====
++.escapefromtarkov.com
++.battlestategames.com
+
+# ===== Rockstar / Take-Two (GTA Online, RDR) =====
++.rockstargames.com
++.rockstarnewswire.com
++.socialclub.rockstargames.com
+
+# ===== Xbox / Microsoft Gaming =====
++.xbox.com
++.xboxlive.com
++.xboxservices.com
++.microsoftstudios.com
++.beth.games
++.bethesda.net
++.doom.com
+
+# ===== PlayStation (опционально) =====
++.playstation.com
++.playstation.net
++.sonyentertainmentnetwork.com
+
+# ===== Nintendo (опционально) =====
++.nintendo.com
++.nintendo.net
++.nintendowifi.net
+
+# ===== GOG / Humble =====
++.gog.com
++.gog-statics.com
++.humblebundle.com
+
+# ===== Minecraft / Mojang =====
++.minecraft.net
++.mojang.com
++.minecraftdotnet.com
+
+# ===== Другие популярные =====
++.battleye.com
++.easyanticheat.net
++.anticheatexpert.com
++.bohemia.net
++.arma3.com
++.dayz.com
++.pubg.com
++.krafton.com
