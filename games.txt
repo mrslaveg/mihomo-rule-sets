@@ -35,9 +35,6 @@ steam.ru.qtlglb.com
 +.epicgamescdn.com
 +.unrealengine.com
 +.fortnite.com
-+.easyanticheat.net
-+.easy.ac
-+.eac-cdn.com
 +.fab.com
 egdownload.fastly-edge.com
 
@@ -57,9 +54,8 @@ egdownload.fastly-edge.com
 +.blizzard.com
 +.blizzardgearstore.com
 +.blz-contentstack.com
-+.battlelog.com
 
-# ===== EA / Battlefield =====
+# ===== EA / Battlefield + EAC =====
 +.ea.com
 +.origin.com
 +.eaassets.com
@@ -88,7 +84,7 @@ egdownload.fastly-edge.com
 +.faceit.com
 +.faceit-cdn.net
 
-# ===== Wargaming (World of Tanks / Warships / Warplanes) =====
+# ===== Wargaming / Lesta =====
 +.wargaming.net
 +.worldoftanks.eu
 +.worldoftanks.ru
@@ -98,7 +94,7 @@ egdownload.fastly-edge.com
 +.lesta.ru
 +.lesta.games
 
-# ===== Gaijin (War Thunder / Enlisted) =====
+# ===== Gaijin =====
 +.gaijin.net
 +.warthunder.com
 +.enlisted.net
@@ -108,10 +104,9 @@ egdownload.fastly-edge.com
 +.escapefromtarkov.com
 +.battlestategames.com
 
-# ===== Rockstar / Take-Two (GTA Online, RDR) =====
+# ===== Rockstar / Take-Two =====
 +.rockstargames.com
 +.rockstarnewswire.com
-+.socialclub.rockstargames.com
 
 # ===== Xbox / Microsoft Gaming =====
 +.xbox.com
@@ -122,12 +117,12 @@ egdownload.fastly-edge.com
 +.bethesda.net
 +.doom.com
 
-# ===== PlayStation (опционально) =====
+# ===== PlayStation =====
 +.playstation.com
 +.playstation.net
 +.sonyentertainmentnetwork.com
 
-# ===== Nintendo (опционально) =====
+# ===== Nintendo =====
 +.nintendo.com
 +.nintendo.net
 +.nintendowifi.net
@@ -142,9 +137,8 @@ egdownload.fastly-edge.com
 +.mojang.com
 +.minecraftdotnet.com
 
-# ===== Другие популярные =====
+# ===== Другие =====
 +.battleye.com
-+.easyanticheat.net
 +.anticheatexpert.com
 +.bohemia.net
 +.arma3.com
