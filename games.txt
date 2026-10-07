@@ -59,13 +59,24 @@ egdownload.fastly-edge.com
 +.blz-contentstack.com
 +.battlelog.com
 
-# ===== EA / Origin =====
+# ===== EA / Battlefield =====
 +.ea.com
 +.origin.com
 +.eaassets.com
 +.eaorigin.com
 +.easports.com
 +.respawn.com
++.battlefield.com
++.battlefieldbadcompany2.com
++.battlefieldheroes.com
++.battlelog.com
++.tnt-ea.com
++.eamythic.com
++.eac-cdn.com
++.easyanticheat.net
++.easy.ac
++.dice.se
++.criteriongames.com
 
 # ===== Ubisoft =====
 +.ubisoft.com
