@@ -16,6 +16,8 @@
 +.dota2.com
 +.underlords.com
 +.playartifact.com
+
+# Steam CDN / static
 steamcdn-a.akamaihd.net
 steamcommunity-a.akamaihd.net
 steampipe.akamaized.net
@@ -29,6 +31,7 @@ steamvideo-a.akamaihd.net
 steam.cdn.webra.ru
 steam.ru.qtlglb.com
 
+
 # ===== Epic Games =====
 +.epicgames.com
 +.epicgames.dev
@@ -38,7 +41,8 @@ steam.ru.qtlglb.com
 +.fab.com
 egdownload.fastly-edge.com
 
-# ===== Riot (Valorant / LoL) =====
+
+# ===== Riot / League of Legends / VALORANT =====
 +.riotgames.com
 +.riotcdn.net
 +.playvalorant.com
@@ -49,13 +53,15 @@ egdownload.fastly-edge.com
 +.rstatic.net
 +.riotforgegames.com
 
+
 # ===== Battle.net / Blizzard =====
 +.battle.net
 +.blizzard.com
 +.blizzardgearstore.com
 +.blz-contentstack.com
 
-# ===== EA / Battlefield + EAC =====
+
+# ===== EA / Battlefield =====
 +.ea.com
 +.origin.com
 +.eaassets.com
@@ -68,11 +74,20 @@ egdownload.fastly-edge.com
 +.battlelog.com
 +.tnt-ea.com
 +.eamythic.com
++.dice.se
++.criteriongames.com
+
+
+# ===== PunkBuster =====
++.evenbalance.com
++.pbsvc.com
+
+
+# ===== Easy Anti-Cheat =====
 +.eac-cdn.com
 +.easyanticheat.net
 +.easy.ac
-+.dice.se
-+.criteriongames.com
+
 
 # ===== Ubisoft =====
 +.ubisoft.com
@@ -80,9 +95,11 @@ egdownload.fastly-edge.com
 +.uplay.com
 +.ubisoftconnect.com
 
-# ===== Faceit =====
+
+# ===== FACEIT =====
 +.faceit.com
 +.faceit-cdn.net
+
 
 # ===== Wargaming / Lesta =====
 +.wargaming.net
@@ -94,54 +111,75 @@ egdownload.fastly-edge.com
 +.lesta.ru
 +.lesta.games
 
+
 # ===== Gaijin =====
 +.gaijin.net
 +.warthunder.com
 +.enlisted.net
 +.crossout.net
 
+
 # ===== Escape from Tarkov =====
 +.escapefromtarkov.com
 +.battlestategames.com
 
+
 # ===== Rockstar / Take-Two =====
 +.rockstargames.com
 +.rockstarnewswire.com
+
 
 # ===== Xbox / Microsoft Gaming =====
 +.xbox.com
 +.xboxlive.com
 +.xboxservices.com
 +.microsoftstudios.com
-+.beth.games
+
+
+# ===== Bethesda / ZeniMax =====
 +.bethesda.net
++.beth.games
 +.doom.com
+
 
 # ===== PlayStation =====
 +.playstation.com
 +.playstation.net
 +.sonyentertainmentnetwork.com
 
+
 # ===== Nintendo =====
 +.nintendo.com
 +.nintendo.net
 +.nintendowifi.net
+
 
 # ===== GOG / Humble =====
 +.gog.com
 +.gog-statics.com
 +.humblebundle.com
 
+
 # ===== Minecraft / Mojang =====
 +.minecraft.net
 +.mojang.com
 +.minecraftdotnet.com
 
-# ===== Другие =====
+
+# ===== Battleye =====
 +.battleye.com
-+.anticheatexpert.com
+
+
+# ===== BattlEye / other games =====
 +.bohemia.net
 +.arma3.com
 +.dayz.com
+
+
+# ===== PUBG / Krafton =====
 +.pubg.com
 +.krafton.com
+
+
+# ===== Tencent / ACE =====
++.anticheatexpert.com
