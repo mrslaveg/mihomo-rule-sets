@@ -53,7 +53,7 @@ jobs:
           ./mihomo convert-ruleset domain text direct.txt direct.mrs
           ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
           ./mihomo convert-ruleset domain text games.txt games.mrs
-          ./mihomo convert-ruleset domain text gamesip.txt gamesip.mrs
+          ./mihomo convert-ruleset ipcidr text gamesip.txt gamesip.mrs
 
           ls -lh direct.mrs proxy.mrs games.mrs gamesip.mrs
 
