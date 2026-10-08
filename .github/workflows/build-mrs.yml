@@ -6,6 +6,7 @@ on:
       - 'direct.txt'
       - 'proxy.txt'
       - 'games.txt'
+      - 'gamesip.txt'
       - '.github/workflows/build-mrs.yml'
   workflow_dispatch:
 
@@ -52,8 +53,9 @@ jobs:
           ./mihomo convert-ruleset domain text direct.txt direct.mrs
           ./mihomo convert-ruleset domain text proxy.txt proxy.mrs
           ./mihomo convert-ruleset domain text games.txt games.mrs
+          ./mihomo convert-ruleset domain text gamesip.txt gamesip.mrs
 
-          ls -lh direct.mrs proxy.mrs games.mrs
+          ls -lh direct.mrs proxy.mrs games.mrs gamesip.mrs
 
       - name: Commit MRS
         shell: bash
@@ -63,7 +65,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add direct.mrs proxy.mrs games.mrs
+          git add direct.mrs proxy.mrs games.mrs gamesip.mrs
 
           if git diff --cached --quiet; then
             echo "No MRS changes"
