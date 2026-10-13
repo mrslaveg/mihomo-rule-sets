@@ -1,15 +1,15 @@
 sub.fastconnect.su
 
 # Netcraze
-netcraze.cloud
-netcraze.net
-netcraze.io
-netcraze.by
-keenetic.ru
-mykeenetic.ru
++.netcraze.cloud
++.netcraze.net
++.netcraze.io
++.netcraze.by
++.keenetic.ru
++.mykeenetic.ru
 
 # Netcraze DDNS
-netcraze.link
-netcraze.pro
-netcraze.club
-crazedns.ru
++.netcraze.link
++.netcraze.pro
++.netcraze.club
++.crazedns.ru
