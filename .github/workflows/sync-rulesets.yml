@@ -2,25 +2,24 @@ name: Sync specific rulesets
 
 on:
   schedule:
-    - cron: '0 3 * * *' # каждый день в 03:00 UTC
-  workflow_dispatch: # для ручного запуска
+    - cron: '0 3 * * *'   # каждый день в 03:00 UTC
+  workflow_dispatch:       # позволяет запускать вручную с вкладки Actions
 
 permissions:
-  contents: write
+  contents: write          # нужно, чтобы бот мог пушить коммиты
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Download only the two files
         run: |
-          # Скачиваем нужные файлы по прямым ссылкам
+          mkdir -p rules
           curl -fsSL -o rules/geosite-ru.mrs \
             "https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/main/rules/category-ru.mrs"
-          
           curl -fsSL -o rules/geoip-ru.mrs \
             "https://raw.githubusercontent.com/Davoyan/mihomo-rule-sets/main/ip-for-ru/lists/ips-for-ru.mrs"
 
