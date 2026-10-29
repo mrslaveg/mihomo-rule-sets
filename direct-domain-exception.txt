@@ -1,1 +1,202 @@
+sub.fastconnect.su
 
+# Netcraze
++.netcraze.cloud
++.netcraze.net
++.netcraze.io
++.netcraze.by
++.keenetic.ru
++.mykeenetic.ru
+
+# Netcraze DDNS
++.netcraze.link
++.netcraze.pro
++.netcraze.club
++.crazedns.ru
+
+#GAMES
+# ===== Steam / Valve =====
++.steampowered.com
++.steamcommunity.com
++.steamstatic.com
++.steamcontent.com
++.steamserver.net
++.steam-api.com
++.steam-chat.com
++.steamgames.com
++.steamusercontent.com
++.steamdeck.com
++.steam.tv
++.s.team
++.valvesoftware.com
++.valve.net
++.dota2.com
++.underlords.com
++.playartifact.com
+
+# Steam CDN / static
+steamcdn-a.akamaihd.net
+steamcommunity-a.akamaihd.net
+steampipe.akamaized.net
+steampipe-partner.akamaized.net
+steamstore-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+steamuserimages-a.akamaihd.net
+steambroadcast.akamaized.net
+steammobile.akamaized.net
+steamvideo-a.akamaihd.net
+steam.cdn.webra.ru
+steam.ru.qtlglb.com
+
+
+# ===== Epic Games =====
++.epicgames.com
++.epicgames.dev
++.epicgamescdn.com
++.unrealengine.com
++.fortnite.com
++.fab.com
+egdownload.fastly-edge.com
+
+
+# ===== Riot / League of Legends / VALORANT =====
++.riotgames.com
++.riotcdn.net
++.playvalorant.com
++.leagueoflegends.com
++.pvp.net
++.pvp.tv
++.rgpub.io
++.rstatic.net
++.riotforgegames.com
+
+
+# ===== Battle.net / Blizzard =====
++.battle.net
++.blizzard.com
++.blizzardgearstore.com
++.blz-contentstack.com
+
+
+# ===== EA / Battlefield =====
++.ea.com
++.origin.com
++.eaassets.com
++.eaorigin.com
++.easports.com
++.respawn.com
++.battlefield.com
++.battlefieldbadcompany2.com
++.battlefieldheroes.com
++.battlelog.com
++.tnt-ea.com
++.eamythic.com
++.dice.se
++.criteriongames.com
+
+
+# ===== PunkBuster =====
++.evenbalance.com
++.pbsvc.com
+
+
+# ===== Easy Anti-Cheat =====
++.eac-cdn.com
++.easyanticheat.net
++.easy.ac
+
+
+# ===== Ubisoft =====
++.ubisoft.com
++.ubi.com
++.uplay.com
++.ubisoftconnect.com
+
+
+# ===== FACEIT =====
++.faceit.com
++.faceit-cdn.net
+
+
+# ===== Wargaming / Lesta =====
++.wargaming.net
++.worldoftanks.eu
++.worldoftanks.ru
++.worldofwarships.eu
++.worldofwarships.ru
++.wotblitz.ru
++.lesta.ru
++.lesta.games
+
+
+# ===== Gaijin =====
++.gaijin.net
++.warthunder.com
++.enlisted.net
++.crossout.net
+
+
+# ===== Escape from Tarkov =====
++.escapefromtarkov.com
++.battlestategames.com
+
+
+# ===== Rockstar / Take-Two =====
++.rockstargames.com
++.rockstarnewswire.com
+
+
+# ===== Xbox / Microsoft Gaming =====
++.xbox.com
++.xboxlive.com
++.xboxservices.com
++.microsoftstudios.com
+
+
+# ===== Bethesda / ZeniMax =====
++.bethesda.net
++.beth.games
++.doom.com
+
+
+# ===== PlayStation =====
++.playstation.com
++.playstation.net
++.sonyentertainmentnetwork.com
+
+
+# ===== Nintendo =====
++.nintendo.com
++.nintendo.net
++.nintendowifi.net
+
+
+# ===== GOG / Humble =====
++.gog.com
++.gog-statics.com
++.humblebundle.com
+
+
+# ===== Minecraft / Mojang =====
++.minecraft.net
++.mojang.com
++.minecraftdotnet.com
+
+
+# ===== Battleye =====
++.battleye.com
+
+
+# ===== BattlEye / other games =====
++.bohemia.net
++.arma3.com
++.dayz.com
+
+
+# ===== PUBG / Krafton =====
++.pubg.com
++.krafton.com
+
+
+# ===== Tencent / ACE =====
++.anticheatexpert.com
